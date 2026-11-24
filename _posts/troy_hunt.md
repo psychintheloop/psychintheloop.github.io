@@ -1,0 +1,48 @@
+---
+layout: single
+title: "Troy Hunt: specjalista od wycieków ofiarą phishingu, <br>czyli naprawdę każdy może zostać zhakowany"
+excerpt: "O złudzeniu kontroli, zmęczeniu decyzyjnym i tym, dlaczego najłatwiej zhakować człowieka."
+date: 2026-11-24T12:41:00+01:00
+header:
+  teaser: /assets/images/hunt.png
+---
+
+W świecie cyberbezpieczeństwa istnieje jedno przekonanie, które uwielbiamy powtarzać jak mantrę: „Mnie to nie dotyczy. Ja przecież uważam, nie klikam w podejrzane linki i znam się na rzeczy”. Myślimy, że ofiarami cyberprzestępców padają wyłącznie osoby starsze, nieuważne albo takie, które ustawiają hasło „123456” do banku.
+
+Tymczasem człowiek, który o wyciekach danych wie niemal wszystko – australijski ekspert **Troy Hunt**, twórca serwisu **Have I Been Pwned** – od lat powtarza jak zdartą płytę: **każdy może zostać zhakowany**. W marcu 2025 roku udowodnił to na samym sobie, w najbardziej ironiczny sposób, jaki można sobie wyobrazić. Tak, naprawdę każdy może zostać zhakowany.
+
+## 🎣 Jak łowca wycieków sam dał się złowić na phishing
+
+Troy Hunt to gość, który codziennie analizuje tysiące wykradzionych rekordów i edukuje setki ludzi, jak nie dać się nabrać oszustom. A jednak pewnego dnia otworzył skrzynkę mailową i zobaczył wiadomość rzekomo od platformy Mailchimp (której używa do wysyłania swojego newslettera). 
+
+W mailu była informacja o ograniczeniach w wysyłce wiadomości z powodu skargi na spam. Co zrobił specjalista od bezpieczeństwa w sieci?
+
+* Kliknął w link.
+* Menedżer haseł nie podpowiedział danych (co powinno być czerwoną lampką alarmową!)
+* Wpisał login i hasło.
+* ...
+* ...
+* Zorientował się, że wyciekła lista **16 tysięcy subskrybentów** jego newslettera.
+* ...
+* Własnoręcznie dodał swój wyciek do swojej bazy wycieków.
+
+Troy nie zamiótł sprawy pod dywan – przyznał się publicznie, że nie był wystarczająco czujny, i wrzucił własny incydent do bazy Have I Been Pwned.
+
+## 🧠 Psychologiczny mechanizm: Złudzenie kontroli i zmęczenie decyzyjne
+
+Dlaczego jeden z największych autorytetów w branży cyberbezpieczeństwa popełnił tak elementarny błąd? Bo jego mózg działa na dokładnie tym samym oprogramowaniu, co mózg każdego z nas.
+
+Kiedy pojawia się bodziec wywołujący lekki stres (groźba zablokowania konta, ważnego dla pracy narzędzia), w głowie zachodzą dwa zjawiska:
+
+* **Złudzenie ponadprzeciętności (*Illusory Superiority*).** Wypadki, oszustwa i błędy przydarzają się innym, nie mnie. *Ja jestem mądrzejszy, sprytniejszy, bardziej doświadczony. Jestem ekspertem.* Ale... im większa wiedza, tym łatwiej uśpić czujność.
+* **Przeciążenie poznawcze i działanie na autopilocie.** Codziennie podejmujemy tysiące mikrodecyzji. Gdy jesteśmy zmęczeni, w biegu albo akurat robimy pięć rzeczy naraz (a tak było w tym przypadku), nasz mózg przełącza się na tryb automatyczny. Zamiast włączyć krytyczną analizę („Zaraz, dlaczego menedżer haseł nie uzupełnił formularza?”), wykonuje wyuczony odruch: widzisz formularz – wpisujesz hasło.
+
+## ⚖️ Wniosek: Bądź przeostrożny jak łasica! Czujny jak gajowy!
+
+Historia Troya Hunta to najlepsza lekcja pokory dla każdego, kto kiedykolwiek pomyślał: „Ale jak można dać się nabrać na taki głupi mail?!”. Można. Wystarczy gorszy dzień, odrobina pośpiechu i idealnie dobrany moment.
+
+I tu wracamy do hasła, które z każdą kolejną historią nabiera jeszcze większej mocy: **najłatwiej zhakować człowieka**. Nawet takiego, który zawodowo zajmuje się łapaniem hakerów.
+
+Dlatego nie wierzę w nieomylność ludzkiego mózgu. Wierzę w mądre pomoce, które ratują nam skórę wtedy, gdy nasz rozum akurat poszedł na kawę: **uwierzytelnianie dwuskładnikowe** (najlepiej z kluczem sprzętowym), **unikalne hasła** do każdego serwisu, **manager haseł** (taki, z którego będziemy korzystać, a nie tylko go posiadać ;)). Ale najważniejsza jest zasada, że jak coś krzyczy „PILNE!”, to tym bardziej robimy trzy głębokie wdechy i przypominamy moje ulubione hasło ostatnio: **„Pomyśl, zanim klikniesz”** ;).
+
+---
